@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-'''module rotates a 2D matrix 90d'''
+'''This module rotates a 2D matrix 90d'''
 
 
 def rotate_2d_matrix(matrix):
@@ -16,4 +16,3 @@ def rotate_2d_matrix(matrix):
             matrix[top + i][right] = topLeft
         right -= 1
         left += 1
-
