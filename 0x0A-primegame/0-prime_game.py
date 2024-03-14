@@ -1,9 +1,9 @@
 #!/usr/bin/python3
 """Contains isPrimegame"""
 
+
 def isWinner(x, nums):
-    """x - rounds
-    nums - numbers list
+    """Finds winner
     """
     if x <= 0 or nums is None:
         return None
@@ -31,8 +31,7 @@ def isWinner(x, nums):
 
 
 def rm_multiples(ls, x):
-    """removes multiple
-    of primes
+    """Removes multiple
     """
     for i in range(2, len(ls)):
         try:
